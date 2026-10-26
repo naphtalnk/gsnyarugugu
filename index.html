@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Nyarugugu | Official School Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <div class="logo-circle">GS</div>
+    <div>
+      <h2>GS Nyarugugu</h2>
+      <small>Kanombe Sector, Busanza Cell</small>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#news">News</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="admin.html" class="admin-link">Admin</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <span>WELCOME TO</span>
+    <h1>GS Nyarugugu</h1>
+    <p>
+      Building knowledge, character and a brighter future for every learner.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#about" class="btn">Learn More</a>
+      <a href="#contact" class="btn btn-light">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-title">
+    <span>ABOUT OUR SCHOOL</span>
+    <h2>Welcome to GS Nyarugugu</h2>
+  </div>
+
+  <div class="about-grid">
+    <div>
+      <h3>Our School</h3>
+      <p>
+        GS Nyarugugu is a school located in Kanombe Sector, Busanza Cell,
+        Rwanda. We are committed to providing quality education and creating
+        an environment where learners can develop academically, socially and
+        personally.
+      </p>
+
+      <div class="info-cards">
+        <div class="info-card">
+          <h3>Our Vision</h3>
+          <p>To develop responsible, knowledgeable and confident learners.</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Our Mission</h3>
+          <p>
+            To provide quality education and nurture learners for a successful
+            future.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-box">
+      <div class="big-logo">GS</div>
+      <h3>GS Nyarugugu</h3>
+      <p>Kanombe Sector • Busanza Cell • Rwanda</p>
+    </div>
+  </div>
+</section>
+
+<section id="academics" class="section light">
+  <div class="section-title">
+    <span>EDUCATION</span>
+    <h2>Our Academics</h2>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="icon">📚</div>
+      <h3>Quality Learning</h3>
+      <p>Supporting learners through effective teaching and learning.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎓</div>
+      <h3>Student Development</h3>
+      <p>Encouraging academic, social and personal development.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">⚽</div>
+      <h3>Extra Activities</h3>
+      <p>Sports, clubs and activities that develop student talents.</p>
+    </div>
+  </div>
+</section>
+
+<section id="news" class="section">
+  <div class="section-title">
+    <span>STAY UPDATED</span>
+    <h2>Latest News</h2>
+  </div>
+
+  <div id="newsContainer" class="cards"></div>
+</section>
+
+<section id="gallery" class="section light">
+  <div class="section-title">
+    <span>SCHOOL LIFE</span>
+    <h2>Gallery</h2>
+  </div>
+
+  <div id="galleryContainer" class="gallery">
+    <div class="gallery-placeholder">School Photo</div>
+    <div class="gallery-placeholder">Students</div>
+    <div class="gallery-placeholder">Activities</div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="section-title">
+    <span>GET IN TOUCH</span>
+    <h2>Contact GS Nyarugugu</h2>
+  </div>
+
+  <div class="contact-grid">
+
+    <div class="contact-info">
+      <h3>School Information</h3>
+
+      <p>📍 <strong>Location:</strong><br>
+        Kanombe Sector, Busanza Cell, Rwanda
+      </p>
+
+      <p>📞 <strong>Phone:</strong><br>
+        Add school phone number
+      </p>
+
+      <p>✉️ <strong>Email:</strong><br>
+        Add school email
+      </p>
+    </div>
+
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="senderName" placeholder="Your Name" required>
+      <input type="email" id="senderEmail" placeholder="Your Email" required>
+      <input type="text" id="senderSubject" placeholder="Subject" required>
+      <textarea id="senderMessage" rows="6"
+        placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <div>
+    <h3>GS Nyarugugu</h3>
+    <p>Kanombe Sector, Busanza Cell, Rwanda</p>
+  </div>
+
+  <div>
+    <p>© <span id="year"></span> GS Nyarugugu. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
